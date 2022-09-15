@@ -6,27 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</style>
+    <style>
+        .center {
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+
+        body {
+            background-color:rgba(28, 255, 8, 0.219)
+        }
+        #nome{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(70, 70, 70);
+        text-decoration: underline;
+        }
+        .paragrafo{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        }
+    .informacoes{
+    font-family: monospace;
+    line-height: 20px;
+    }
+    .lista_indice{
+    text-decoration: none;
+    color: ;
+    }
+    </style>
+
 </head>
 
 <body>
     <h2>Indice do meu portifólio:</h2>
-    <ol>
-        <li><a href="#nome">Meu nome completo</a></li><br>
-        <li><a href="#foto">Foto usada</a></li><br>
-        <li><a href="#pessoal">Informações Pessoais</a></li><br>
-        <li><a href="#competencias">Minhas competenciais</a></li><br>
-        <li><a href="#blogs">Blogs que eu gosto e recomendo</a></li><br>
-        <li><a href="#sociais">Minhas redes sociais para contato</a></li><br>
+    <ol class="lista_indice">
+        <li><a class="lista_indice" href="#nome">Meu nome completo</a></li><br>
+        <li><a class="lista_indice" href="#foto">Foto usada</a></li><br>
+        <li><a class="lista_indice"href="#pessoal">Informações Pessoais</a></li><br>
+        <li><a class="lista_indice"href="#competencias">Minhas competenciais</a></li><br>
+        <li><a class="lista_indice"href="#blogs">Blogs que eu gosto e recomendo</a></li><br>
+        <li><a class="lista_indice"href="#sociais">Minhas redes sociais para contato</a></li><br>
         <br><br>
     </ol>
     <hr>
     <h1 id="nome"> <em>Pedro Emmanuel Buerger da Silva</em></h1>
-    <img src="IMG_20220905_221344.png" alt="pedro e.b da silva" width="350">
-    <p>Atualmente aluno da instituição trybe e amante da tecnologia. Sempre em busca de conhecimento! </p>
-    <p>Atuei dois anos na area de design grafico e marketing digital. </p>
+    <img src="IMG_20220905_221344.png.png" alt="pedro e.b da silva" width="350" class="center">
+    <p class="paragrafo">Atualmente aluno da instituição trybe e amante da tecnologia. Sempre em busca de conhecimento! </p>
+    <p class="paragrafo">Atuei dois anos na area de design grafico e marketing digital. </p>
     <hr>
     <h2 id="pessoal">Pessoal:</h2>
-    <ul>
+    <ul class="informacoes">
         <li>Nacionalidade: Brasileiro</li>
         <br>
         <li>Cidade: Blumenau</li>
@@ -37,7 +72,7 @@
     </ul>
     <hr>
     <h2 id="competencias">Competencias:</h2>
-    <ul>
+    <ul class="informacoes">
         <li>Photoshop</li><br>
         <li>IcorelDraw</li><br>
         <li>Illustrator</li><br>
@@ -45,7 +80,7 @@
     </ul>
     <hr>
     <h2 id="blogs">Blogs</h2>
-    <ul>
+    <ul class="informacoes">
         <li>
             <p><a href="https://blog.geekhunter.com.br/" target="_blank">GeekHunter</a></p>
         </li>
