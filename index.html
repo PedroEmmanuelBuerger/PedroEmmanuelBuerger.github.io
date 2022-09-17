@@ -8,73 +8,12 @@
     <title>Meu portifólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     </style>
-    <style>
-        .center {
-            border-radius: 50%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 400px;
-        }
-
-        body {
-            background-color: rgba(28, 255, 8, 0.411)
-        }
-
-        #nome {
-            display: table;
-            margin: 0px auto 0px auto;
-            font-size: 20px;
-            color: #ffffff;
-            border-radius: 50%;
-            text-align: center;
-            font-family: 'Anton', sans-serif;
-            color: rgb(4, 102, 81);
-            font-size: 30px;
-        }
-
-        .paragrafo {
-            text-align: center;
-            color: black;
-            font-size: 23px;
-        }
-
-        .informacoes {
-            font-size: 18px;
-            font-family: monospace;
-            line-height: 21px;
-        }
-
-        .lista_indice {
-            text-decoration: none;
-            color: rgb(40, 17, 168);
-            font-size: 20px;
-        }
-
-        .subtitulos {
-            border-radius: 30px;
-            padding: 8px 12px;
-            background-color: rgb(125, 125, 233);
-            color: rgb(238, 234, 13);
-            text-align: center;
-            font-family: monospace;
-        }
-
-        #melhor_competencia {
-            color: rgb(248, 17, 17);
-        }
-
-        hr {
-            height: 2px;
-            background-color: rgb(0, 0, 0);
-            border: none;
-        }
-    </style>
-
 </head>
 
 <body>
+    <!-- PARTE1 -->
     <h2 class="subtitulos"> ÍNDICE</h2>
     <ol class="lista_indice">
         <li><a class="lista_indice" style="color:rgb(189, 22, 22)" href="#nome">Meu nome completo</a></li><br>
@@ -87,12 +26,19 @@
         </li><br>
         <br>
     </ol>
-    <hr>
-    <h1 id="nome"> <em>Pedro Emmanuel Buerger da Silva</em></h1>
-    <img src="IMG_20220905_221344.png.png" alt="pedro e.b da silva" width="350" class="center">
-    <p class="paragrafo">Atualmente aluno da instituição trybe e amante da tecnologia. Sempre em busca de conhecimento!
-    </p>
-    <p class="paragrafo">Atuei dois anos na area de design grafico e marketing digital. </p>
+
+<!-- PARTE2 -->
+    <h2 class="subtitulos">HISTÓRIA</h2>
+    <div class="nome">
+        <h1> <em>Pedro Emmanuel Buerger da Silva</em></h1>
+    </div>
+    <div class="center"><img src="IMG_20220905_221344.png.png" alt="pedro e.b da silva" width="350"></div>
+    <div class="paragrafo">
+        <p>Atualmente aluno da instituição trybe e amante da tecnologia. Sempre em busca de conhecimento! <br>
+            Atuei dois anos na area de design grafico e marketing digital. </p>
+    </div>
+
+<!-- PARTE 3 -->
     <h2 id="pessoal" class="subtitulos">PESSOAL</h2>
     <ul class="informacoes">
         <li>Nacionalidade: Brasileiro</li>
@@ -103,12 +49,19 @@
         <br>
         <li>Idade: 21 anos (11/06/2001) </li>
     </ul>
-    <h2 id="competencias" class="subtitulos">COMPETÊNCIAS</h2>
-    <ul class="informacoes">
-        <li>Photoshop</li><br>
-        <li>IcorelDraw</li><br>
-        <li id="melhor_competencia"><strong>*Web design e marketing digital*</strong></li><br>
-        <li>Illustrator</li>
+
+<!-- PARTE 4 -->
+    <div class="competencias">
+        <h2 id="competencias" class="subtitulos">COMPETÊNCIAS</h2>
+        <ul class="informacoes">
+            <li>Photoshop</li><br>
+            <li>IcorelDraw</li><br>
+            <li>*Web design e marketing digital*</li><br>
+            <li>Illustrator</li>
+    </div>
+
+
+    <!-- PARTE 5 -->
     </ul>
     <h2 id="blogs" class="subtitulos">BLOGS</h2>
     <ul class="informacoes">
@@ -122,11 +75,13 @@
             <p><a class="lista_indice" href="https://dev.to/" target='_blank'>Dev.to</a></p>
         </li>
     </ul>
+
+    <!-- PARTE 6 -->
     <h2 id="sociais" class="subtitulos">REDES SOCIAIS</h2>
     <ul class="informacoes">
         <li>
-            <p><a class="lista_indice" href="https://www.facebook.com/pedro.emmanuel4/" target="_blank">Facebook <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"
+            <p><a class="lista_indice" href="https://www.facebook.com/pedro.emmanuel4/" target="_blank">Facebook
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"
                         alt="facebook" width="20px
                 "></p></a>
         </li>
