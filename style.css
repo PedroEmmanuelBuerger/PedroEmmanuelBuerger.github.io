@@ -30,11 +30,11 @@ body {
 
 .paragrafo {
     color: rgb(10, 15, 88);
-    font-size: 23px;
+    font-size: 30px;
     position: absolute;
     width: 500px;
     height: 600px;
-    top: 680px;
+    top: 630px;
     left: 150px;
     display: block;
 }
