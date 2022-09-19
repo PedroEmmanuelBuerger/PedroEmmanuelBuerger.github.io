@@ -6,27 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </style>
 </head>
 
 <body>
-    <h2>Indice do meu portifólio:</h2>
-    <ol>
-        <li><a href="#nome">Meu nome completo</a></li><br>
-        <li><a href="#foto">Foto usada</a></li><br>
-        <li><a href="#pessoal">Informações Pessoais</a></li><br>
-        <li><a href="#competencias">Minhas competenciais</a></li><br>
-        <li><a href="#blogs">Blogs que eu gosto e recomendo</a></li><br>
-        <li><a href="#sociais">Minhas redes sociais para contato</a></li><br>
-        <br><br>
+    <!-- PARTE1 -->
+    <h2 class="subtitulos"> ÍNDICE</h2>
+    <ol class="lista_indice">
+        <li><a class="lista_indice" style="color:rgb(189, 22, 22)" href="#nome">Meu nome completo</a></li><br>
+        <li><a class="lista_indice" style="color:rgb(189, 22, 22)" href="#pessoal">Informações Pessoais</a></li><br>
+        <li><a class="lista_indice" style="color:rgb(189, 22, 22)" href="#competencias">Minhas competenciais</a></li>
+        <br>
+        <li><a class="lista_indice" style="color:rgb(189, 22, 22)" href="#blogs">Blogs que eu gosto e recomendo</a></li>
+        <br>
+        <li><a class="lista_indice" style="color:rgb(189, 22, 22)" href="#sociais">Minhas redes sociais para contato</a>
+        </li><br>
+        <br>
     </ol>
-    <hr>
-    <h1 id="nome"> <em>Pedro Emmanuel Buerger da Silva</em></h1>
-    <img src="IMG_20220905_221344.png" alt="pedro e.b da silva" width="350">
-    <p>Atualmente aluno da instituição trybe e amante da tecnologia. Sempre em busca de conhecimento! </p>
-    <p>Atuei dois anos na area de design grafico e marketing digital. </p>
-    <hr>
-    <h2 id="pessoal">Pessoal:</h2>
-    <ul>
+
+    <!-- PARTE2 -->
+    <h2 class="subtitulos">HISTÓRIA</h2>
+    <div class="nome">
+        <h1> <em>Pedro Emmanuel Buerger da Silva</em></h1>
+    </div>
+    <div class="center"><img src="IMG_20220905_221344.png.png" alt="pedro e.b da silva" width="350"></div>
+    <div class="paragrafo">
+        <p>"Atualmente aluno da instituição trybe e amante da tecnologia. Sempre em busca de conhecimento! <br>
+            Atuei dois anos na area de design grafico e marketing digital." </p>
+    </div>
+
+    <!-- PARTE 3 -->
+    <h2 id="pessoal" class="subtitulos">PESSOAL</h2>
+    <ul class="informacoes">
         <li>Nacionalidade: Brasileiro</li>
         <br>
         <li>Cidade: Blumenau</li>
@@ -35,35 +49,56 @@
         <br>
         <li>Idade: 21 anos (11/06/2001) </li>
     </ul>
-    <hr>
-    <h2 id="competencias">Competencias:</h2>
-    <ul>
-        <li>Photoshop</li><br>
-        <li>IcorelDraw</li><br>
-        <li>Illustrator</li><br>
-        <li><strong>*Web design e marketing digital*</strong></li>
+
+    <!-- PARTE 4 -->
+    <div class="competencias">
+        <h2 id="competencias" class="subtitulos">COMPETÊNCIAS</h2>
+        <ul class="informacoes">
+            <li>Photoshop</li><br>
+            <li>IcorelDraw</li><br>
+            <li>*Web design e marketing digital*</li><br>
+            <li>Illustrator</li>
+    </div>
+
+
+    <!-- PARTE 5 -->
     </ul>
-    <hr>
-    <h2 id="blogs">Blogs</h2>
-    <ul>
+    <h2 id="blogs" class="subtitulos">BLOGS</h2>
+    <ul class="informacoes">
         <li>
-            <p><a href="https://blog.geekhunter.com.br/" target="_blank">GeekHunter</a></p>
+            <p><a class="lista_indice" href="https://blog.geekhunter.com.br/" target="_blank">GeekHunter</a></p>
         </li>
         <li>
-            <p><a href="https://devnaestrada.com.br/" target="_blank">Dev Na Estrada</a></p>
+            <p><a class="lista_indice" href="https://devnaestrada.com.br/" target="_blank">Dev Na Estrada</a></p>
         </li>
         <li>
-            <p><a href="https://dev.to/" target='_blank'>Dev.to</a></p>
+            <p><a class="lista_indice" href="https://dev.to/" target='_blank'>Dev.to</a></p>
         </li>
     </ul>
-    <hr>
-    <h2 id="sociais">Redes sociais</h2>
+
+    <!-- PARTE 6 -->
+    <h2 id="sociais" class="subtitulos">REDES SOCIAIS</h2>
+    <ul class="informacoes">
+        <li>
+            <p><a class="lista_indice" href="https://www.facebook.com/pedro.emmanuel4/" target="_blank">Facebook
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"
+                        alt="facebook" width="20px
+                "></p></a>
+        </li>
+        <li>
+            <p><a class="lista_indice" href="https://www.linkedin.com/in/pedroemmanuelbuerger/" target="_blank">Linkedin
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" width="20px">
+            </p></a>
+        </li>
+        <li>
+            <p><a class="lista_indice" href="https://www.instagram.com/pedro_emmanuel_buerger/"
+                    target="_blank">Instagram <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="instagram"
+                        width="20px">
+            </p></a>
+        </li>
+    </ul>
     <br>
-    <h2 id="foto"><a
-            href="https://media-exp1.licdn.com/dms/image/C4D03AQHIF5TcQiPY-A/profile-displayphoto-shrink_800_800/0/1662426837317?e=1668643200&v=beta&t=EqRh54zVhDoobYJWV33RBKA7YDuq3jKF-crvHR6Usg0"
-            target="_blank">link para a foto usada</a></h2>
-
-
 </body>
 
 </html>
