@@ -1,0 +1,102 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BodyDiv {
+    background-image: url(../image/empty-elegant-background-with-copy-space.jpg);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+}
+
+.profileImage {
+    position: absolute;
+    top: 21%;
+    left: 64%;
+    border-radius: 50%;
+    width: 30%;
+    border: 7px solid rgb(41, 10, 218);
+    box-shadow: 0 0 10px rgb(13, 10, 218);
+    border-style: double;
+}
+
+.meSection {
+    margin-left: 3%;
+    width: 55%;
+    height: 55%;
+    background-color: rgba(69, 45, 153, 0.8);
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.name {
+    display: flex;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+    font-size: 350%;
+    color: rgb(255, 225, 57);
+    z-index: 1;
+    font-weight: 600;
+}
+
+.amanha {
+color: rgb(199, 163, 5);
+}
+
+.text {
+    font-family: monospace;
+    top: 18%;
+    font-size: 150%;
+    color: rgb(223, 221, 247);
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    font-size: 360%;
+    justify-content: space-evenly;
+}
+
+.javascript {
+color: yellow;
+margin-left: 25%;
+}
+
+.react {
+color: rgb(25, 252, 252);
+}
+
+.css {
+    color: rgb(68, 171, 255);
+}
+
+.html {
+    color: orange;
+    }
+
+.quote {
+max-width: 60%;
+padding-top: 10%;
+padding-left: 5%;
+font-size: 300%;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+color: rgb(122, 71, 216);
+}
+
+.iconsText {
+    font-size: 40%;
+    font-family: monospace;
+    font-weight: 600;
+    width: 5%;
+    height: 5%;
+    color: rgb(223, 221, 247);
+}

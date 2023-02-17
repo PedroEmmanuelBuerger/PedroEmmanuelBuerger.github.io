@@ -1,0 +1,57 @@
+
+
+.header-background {
+  background-image: url(../image/17545.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  color: rgb(138, 36, 255);
+}
+
+
+.all-welcome {
+  padding-left: 63%;
+  padding-top: 10%;
+  }
+
+  
+.welcome {
+  font-family: monospace;
+  font-size: 250%;
+}
+
+.welcome-message {
+  font-family: monospace;
+  font-size: 150%;
+  max-width: 80%;
+}
+
+.animationImage {
+  width: 65%;
+  height: 65%;
+  animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+
+  0% {
+    transform: translateY(5%);
+  }
+
+  100% {
+    transform: translateX(30%);
+  }
+}
+
+@keyframes mover {
+
+  0% {
+    transform: translateY(5%);
+  }
+
+  100% {
+    transform: translateX(30%);
+  }
+}
