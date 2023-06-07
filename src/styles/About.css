@@ -105,6 +105,7 @@ color: rgb(122, 71, 216);
     .BodyDiv {
         justify-content: center;
         align-items: center;
+        font-size: 12px;
     }
 
     .profileImage {
@@ -113,7 +114,8 @@ color: rgb(122, 71, 216);
 
     .meSection {
         width: 90%;
-        height: auto;
+        height: 90%;
+        font-size: 12px;
     }
 
     .name {

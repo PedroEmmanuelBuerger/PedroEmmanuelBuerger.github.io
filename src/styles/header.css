@@ -50,3 +50,22 @@ header {
   transform: scale(1);
   transition: 0.3s;
 }
+
+/* Para telas menores ou iguais a 768px */
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h3 {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h3 {
+    font-size: 5px;
+  }
+}
