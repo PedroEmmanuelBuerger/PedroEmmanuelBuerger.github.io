@@ -100,3 +100,48 @@ color: rgb(122, 71, 216);
     height: 5%;
     color: rgb(223, 221, 247);
 }
+
+@media (max-width: 768px) {
+    .BodyDiv {
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .profileImage {
+        display: none;
+      }
+
+    .meSection {
+        width: 90%;
+        height: 90%;
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .icons {
+        font-size: 180%;
+        justify-content: center;
+    }
+
+    .quote {
+        max-width: 50%;
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .iconsText {
+        font-size: 80%;
+        width: 10%;
+        height: 10%;
+    }
+}

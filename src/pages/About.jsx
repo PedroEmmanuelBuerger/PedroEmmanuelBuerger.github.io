@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default class About extends Component {
   render() {
     return (
-      <div>
+  <div>
         <Header />
         <section className="BodyDiv">
           <img
