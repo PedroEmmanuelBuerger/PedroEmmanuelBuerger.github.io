@@ -14,7 +14,7 @@ Para visualizar o meu portfólio localmente, siga os passos abaixo:
 5. Abra o navegador e acesse `http://localhost:3000`.
 
 ## Contato
-Se você tiver alguma dúvida ou quiser entrar em contato, fique à vontade para me enviar uma mensagem através do meu e-mail [seu-email@exemplo.com] ou me encontrar nas seguintes redes sociais:
+Se você tiver alguma dúvida ou quiser entrar em contato, fique à vontade para me enviar uma mensagem através do meu e-mail sombraios@hotmail.com ou me encontrar nas seguintes redes sociais:
 
 - [LinkedIn](https://www.linkedin.com/in/pedrobuerger/)
 - [Facebook](https://www.facebook.com/pedro.emmanuel4/)
