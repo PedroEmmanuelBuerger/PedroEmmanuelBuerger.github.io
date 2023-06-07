@@ -30,9 +30,15 @@ export default class Header extends Component {
           </Link>
         </div>
         <div className="info-content">
-          <BsFacebook className="link-icon" />
-          <BsLinkedin className="link-icon" />
-          <BsGithub className="link-icon" />
+          <a href="https://www.facebook.com/pedro.emmanuel4/" target="_blank" rel="noopener noreferrer" className='ps'>
+            <BsFacebook className="link-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/pedrobuerger/" target="_blank" rel="noopener noreferrer" className='ps'>
+            <BsLinkedin className="link-icon" />
+          </a>
+          <a href="https://github.com/PedroEmmanuelBuerger" target="_blank" rel="noopener noreferrer" className='ps'>
+            <BsGithub className="link-icon" />
+          </a>
         </div>
       </header>
     );

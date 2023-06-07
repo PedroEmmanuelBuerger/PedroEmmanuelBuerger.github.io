@@ -51,6 +51,10 @@ header {
   transition: 0.3s;
 }
 
+.ps {
+  color: rgb(255, 255, 255);
+}
+
 /* Para telas menores ou iguais a 768px */
 @media screen and (max-width: 800px) {
   * {
