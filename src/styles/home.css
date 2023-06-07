@@ -55,3 +55,24 @@
     transform: translateX(30%);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .all-welcome {
+    padding-left: 10%;
+    padding-top: 20%;
+  }
+
+  .welcome {
+    font-size: 250%;
+  }
+
+  .welcome-message {
+    font-size: 170%;
+    max-width: 100%;
+    top: 100px;
+  }
+
+  .animationImage {
+    display: none;
+  }
+}
