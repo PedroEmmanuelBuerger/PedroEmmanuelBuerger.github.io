@@ -23,11 +23,6 @@ export default class Header extends Component {
             <h3>Projetos</h3>
             {' '}
           </Link>
-          <Link to="/habilidades" className="header-options">
-            {' '}
-            <h3>habilidades</h3>
-            {' '}
-          </Link>
         </div>
         <div className="info-content">
           <a href="https://www.facebook.com/pedro.emmanuel4/" target="_blank" rel="noopener noreferrer" className='ps'>

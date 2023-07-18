@@ -21,24 +21,11 @@ export default class About extends Component {
           <section className="meSection">
             <p className="name text-center">Pedro Emmanuel</p>
             <p className="text text-center">
-              Ola, sejam bem vindos(a)!!
-              Me chamo Pedro Emmanuel. Sou apaixonado por tecnologia desde que me conheço
-              por gente,
-              Sempre estou indo em busca de novos conhecimentos e de muita evolução
-              pessoal.
-              em 2019 até 2021 atuei como design gráfico e design de midias sociais,
-              passando pelo curso de marketing digital e design gráfico do SENAI.
-              Como designer apliquei muita comunicação e trabalho em equipe alem de
-              adiquirir minha primeira experiencia profissional.
-              Em 2022 faço minha transição da área do design gráfico para a carreira de
-              programação,
-              começando como estudante da instituição Trybe.
-              Faço a transição de carreira para o Desenvolvimento Web pois sempre tive
-              muito contato
-              com esta área e vejo que o futuro que ela traz é incrivel e muito vasto,
-              tendo tambem
-              certo histórico com a area de programação nos anos de 2017-2018 na
-              instituição CEDUP Hermann Hering.
+            Olá, eu sou o Pedro Emmanuel, um profissional apaixonado por tecnologia desde sempre. Minha busca constante por novos conhecimentos e evolução pessoal me levou a atuar como designer gráfico e de mídias sociais entre 2019 e 2021, onde aprendi a importância da comunicação e do trabalho em equipe.
+
+Atualmente, estou fazendo uma transição de carreira para o Desenvolvimento Web, uma área que sempre me fascinou e que oferece um futuro incrível e vasto. Em 2017 e 2018, tive contato com programação na instituição CEDUP Hermann Hering, o que me motivou ainda mais a seguir esse caminho.
+
+No que diz respeito às habilidades técnicas, tenho experiência em React, RTL, Hooks e Redux, além de habilidades em design gráfico e de mídias sociais. Essa combinação de habilidades me permite trazer uma perspectiva única e criativa para o desenvolvimento web.
               <br />
               <br />
               ⭐Caracteristicas pessoais:
