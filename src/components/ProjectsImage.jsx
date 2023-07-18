@@ -21,8 +21,8 @@ export default class ProjectsImage extends Component {
     case 'Solar System':
       texto = ['React', 'JavaScript', 'CSS'];
       break;
-    default:
-      texto = ['React', 'CSS', 'JavaScript'];
+    case "trybetunes":
+      texto = ['a', 'CSS', 'JavaScript'];
     }
 
     this.setState(() => ({
@@ -35,7 +35,7 @@ export default class ProjectsImage extends Component {
     const { texto } = this.state;
     return (
       <div className="project-info">
-        <Link to={ `/projects/${name}` } className="project-info">
+        <a href={`https://github.com/PedroEmmanuelBuerger/${"algorithms"}`} className='project-info' target="_blank">
           <p>{ name }</p>
           <img src={ image } alt={ `${name} project` } />
           <ul className="centered">
@@ -43,7 +43,7 @@ export default class ProjectsImage extends Component {
             Linguagens utilizadas :
             {texto.map((text) => <li key={ text }>{ text }</li>)}
           </ul>
-        </Link>
+        </a>
       </div>
     );
   }
